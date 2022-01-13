@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+
+@media all and (max-width: 414px){ 
+/*     R E  G R O U P E M E N T S     */
+a,h2, p, th, td, label{
+    font-size: 80%;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+}
+h1, h2, h4, a, th, strong, address, small, button{
+    color: white;
+}
+/*--------- Beginning Header ---------*/
+/********** Beginning navBar **********/
+.navBar{
+    background-color: #FFA500;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.navBar figure img{
+    width: 30%;
+    margin-right: 10px;
+}
+.navBar figure{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+}
+.navBar figure figcaption{
+    width: 20%;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+/************ End  navBar ************/
+/********* Beginning  Banner *********/
+.banner{
+    position: relative;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    vertical-align: top;
+}
+marquee{
+    bottom: 0%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+/************ End Banner ************/
+/*----------- End Header -----------*/
+/*--------- Beginning Main ---------*/
+main{
+    background-color: #808080;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+}
+h3{
+    font-size: 20px;
+    padding-bottom: 5%;
+    font-weight: bold;
+}
+/******* Beginning Formations *******/
+section{
+    margin: auto;
+    padding: 5%;
+    background-color: white;
+    border: #FFA500 2px dashed;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+table,th, td{
+    border-spacing: 0;
+}
+th, td{
+    border: 1px solid;
+}
+th{
+    background-color: #515151 ;
+
+}
+/********** End Formations **********/
+/********* Beginning Equipe *********/
+.Equipe div figure{
+    position: relative;
+}
+.Equipe div figure img{
+    width: 60%;
+    border:  #FFA500 2px outset;
+}
+.Equipe div figure figcaption{
+    position: absolute;
+    bottom: 4%;
+    left: 20%;
+    background-color: #FFA500;
+    opacity: 90%;
+    width: 60%;
+}
+h4{
+    font-size: 1rem;
+}
+/************ End Equipe ************/
+/********** Beginning Form **********/
+input, textarea, button{
+    border: #FFA500 1px groove;
+    border-radius: 10px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3%;
+}
+textarea{
+    resize: none;
+}
+button{
+    background-color: #FFA500;
+}
+/************* End Form *************/
+/********* Beginning Footer *********/
+footer{
+    background-color: #515151;
+    text-align: center;
+    padding: 1%;
+}
+/************ End Footer ************/
+/*------------ End Main ------------*/
+}

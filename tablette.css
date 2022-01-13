@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+
+@media all and (min-width: 415px) and (max-width: 1024px){ 
+/*     R E  G R O U P E M E N T S     */
+h2, a, th, td, label, p{
+    font-size: x-large;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+}
+h1, h2, h4, a, th, strong, p, small, button{
+    color: white;
+}
+/*--------- Beginning Header ---------*/
+/********** Beginning navBar **********/
+.navBar{
+    background-color: #FFA500;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.navBar figure img{
+    width: 25%;
+    margin: 2%;
+    margin-right: 10px;
+}
+.navBar figure{
+    display: flex;
+    flex-direction: row;
+    width:40%;
+    align-items: center;
+}
+.navBar figure figcaption{
+    width: none;
+}
+h2, ul a{
+    font-size: x-large;
+}
+ul{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+ul a{
+    margin: 20px;
+}
+/************ End  navBar ************/
+/********* Beginning  Banner *********/
+.banner{
+    position: relative;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    vertical-align: top;
+}
+marquee{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    top: 50%; 
+    left: 50%;
+    font-size: xx-large;
+}
+/************ End Banner ************/
+/*----------- End Header -----------*/
+/*--------- Beginning Main ---------*/
+main{
+    background-color: #808080;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+/******* Beginning Formations *******/
+section{
+    margin: auto;
+    padding: 5%;
+    background-color: white;
+    border: #FFA500 2px dashed;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    padding-bottom: 5%;
+    display: flex;
+}
+table,th, td{
+    border-spacing: 0;
+}
+th, td{
+    border: 1px solid;
+}
+th{
+    background-color: #515151 ;
+
+}
+/********** End Formations **********/
+/********* Beginning Equipe *********/
+.Equipe div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.Equipe div figure{
+    position: relative;
+    border:  #FFA500 2px outset;
+}
+.Equipe div figure img{
+    vertical-align: top;
+
+}
+.Equipe div figure figcaption{
+    position: absolute;
+    bottom: 0%;
+    background-color: #FFA500;
+    opacity: 90%;
+    width: 100%;
+}
+h4{
+    font-size: x-large;
+}
+/************ End Equipe ************/
+/********** Beginning Form **********/
+input, textarea, button{
+    border: #FFA500 1px groove;
+    border-radius: 10px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 3%;
+}
+textarea, input{
+    resize: none;
+    width: 100%;
+    font-size: 150%;
+}
+button{
+    background-color: #FFA500;
+    width: 50%;
+    font-size: 150%;
+    padding: 15px;
+}
+/************* End Form *************/
+/********* Beginning Footer *********/
+footer{
+    background-color: #515151;
+    text-align: center;
+    padding: 1%;
+}
+/************ End Footer ************/
+/*------------ End Main ------------*/
+}
